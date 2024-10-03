@@ -1,0 +1,46 @@
+.services p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.71;
+}
+.services h1{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 49px;
+}
+.grid-services h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+.grid-services .boxes{
+    width: 289px;
+    height: 258px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 6px 24px #2A2C3D29;
+    margin: 32px 24px;
+}
+.grid-services h1{
+    margin-top: 26px;
+}
+.grid-services p{
+    margin-top: 26px;
+    margin-bottom: 32px;
+}
+.grid-services{
+    margin-left: 83px;
+    margin-right: 83px;
+    padding: 30px 90px 0px 90px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 140px;
+    row-gap: 50px;
+}
+.services{
+    margin: 100px 0;
+}

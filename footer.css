@@ -1,0 +1,28 @@
+footer{
+    margin: 100px 0;
+}
+footer .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.right-side{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+}
+footer h1{
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+footer p{
+    margin: 32px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    opacity: 0.71;
+}

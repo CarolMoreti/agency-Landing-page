@@ -1,0 +1,18 @@
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+    background-color: var(--foreground);
+}
+header a{
+    padding: 40px;
+    font-size: 20px;
+    font-weight: 400px;
+    text-decoration: none;
+    color: var(--primary-foreground);
+}
+header a:hover{
+    color: var(--secundary);
+}
