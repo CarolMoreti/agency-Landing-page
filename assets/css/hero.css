@@ -1,6 +1,7 @@
 .hero .container{
     text-align: center;
     background-color: var(--foreground);
+    width:100%;
 }
 .hero .button{
     display: inline-block;

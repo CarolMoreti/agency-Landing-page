@@ -5,6 +5,7 @@ header .container{
     justify-content: space-between;
     padding-top: 24px;
     background-color: var(--foreground);
+    width:100%;
 }
 header a{
     padding: 40px;
